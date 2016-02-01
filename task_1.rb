@@ -14,6 +14,8 @@ class BC
   end
 end
 
+puts '================================'
 puts 'Enter a number..'
 m = gets.chomp.to_i
 m <= 0 ? (puts 'select a number greater than 0') : (puts BC.new.cbs(m))
+puts '================================'

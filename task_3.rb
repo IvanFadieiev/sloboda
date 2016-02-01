@@ -11,6 +11,11 @@ class Factorial
   end
 end
 
+puts '=========================='
+puts 'Factorial of the number 100'
+puts Factorial.new.factorial(100)
+puts '=========================='
 puts 'Enter a number:'
 n = gets.chomp.to_i
 Factorial.new.factorial(n)
+puts '=========================='
